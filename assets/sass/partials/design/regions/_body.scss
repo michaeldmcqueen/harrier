@@ -1,0 +1,16 @@
+html {
+	box-sizing: border-box;
+  height: 100%;
+	body {
+    @include clearfix;
+    margin: 0 auto;
+	  height: 100%;
+    background: $site-bg;
+    overflow-x: hidden;
+    max-width: $container_width;
+    padding: 1em;
+	}
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+

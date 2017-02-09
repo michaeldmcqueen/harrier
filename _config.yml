@@ -1,0 +1,45 @@
+
+# Site settings
+title: "Harrier"
+email: "michaeldmcqueen@gmail.com"
+description: "Harrier Designs | Web Design and Development in Fort Collins, CO"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://orchid-lyrebird.cloudvent.net" # the base hostname & protocol for your site
+#timezone: America/Denver - Don't set for CloudCannon...for reasons.
+version: "3.1.6" # the version of jekyll
+
+# Gems for plugins
+gems:
+  - jekyll-paginate # Needed to add paginate on Jekyll ver 3+
+  - jekyll-sitemap # Simple jekyll plugin that creates a sitemap.xml file and you can exclude files by adding 'sitemap:false' to the frontmatter of any file(s).
+
+# Permalinks
+permalink: pretty
+
+# Pagination
+paginate: 10
+paginate_path: '/blog/:num/'
+
+#Collections
+collections:
+  work:
+    output: true
+    permalink: '/work/:title/'
+
+defaults:
+  -
+    scope:
+      type: work
+    values:
+      layout: page
+      title:
+      main_image_path:
+      description:
+
+# typekit - Because we all need nice type faces.
+typekit: zqf1jay
+
+# Google Analytics - What site isn't using it?!
+google_analytics_tracking_id:
+
+exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]

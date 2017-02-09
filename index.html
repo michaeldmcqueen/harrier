@@ -1,0 +1,15 @@
+---
+title: Home page
+layout: default
+description: Heres the home page description. Replace 
+---
+<section class="worklist">
+  {% for project in site.work %}
+    <article class="project-item">
+      <a href="{{project.url}}" title="{{ project.title }}">
+        <img src="{{ project.main_image_path }}">
+        <!--<h2>{{ project.title }}</h2>-->
+      </a>
+    </article>
+  {% endfor %}
+</section>

@@ -1,0 +1,19 @@
+.worklist {
+  margin-top: 2em;
+  @include clearfix;
+  article {
+    width: calc(50% - 0.65em);
+    max-width: none;
+    float: left;
+    margin-bottom: 1.3em;
+    line-height: 0;
+    &:nth-child(odd) {
+      margin-right: 0.65em;
+      margin-left: 0;
+    }
+    &:nth-child(even) {
+      margin-left: 0.65em;
+      margin-right: 0;
+    }
+  }
+}

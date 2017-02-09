@@ -1,0 +1,449 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/partials/styleguide/misc/_reset.scss */
+::-moz-selection {
+  background: #EF483E;
+}
+
+/* line 7, ../sass/partials/styleguide/misc/_reset.scss */
+::-moz-selection {
+  background: #EF483E;
+}
+::selection {
+  background: #EF483E;
+}
+
+/* line 9, ../sass/partials/styleguide/misc/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 30, ../sass/partials/styleguide/misc/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 34, ../sass/partials/styleguide/misc/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 37, ../sass/partials/styleguide/misc/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 40, ../sass/partials/styleguide/misc/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, ../sass/partials/styleguide/misc/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 48, ../sass/partials/styleguide/misc/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* validation Colors */
+/* line 2, ../sass/partials/global/_extendables.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+/* line 7, ../sass/partials/global/_extendables.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 1, ../sass/partials/styleguide/type/_base-type.scss */
+html {
+  font: normal 100%/1.65 "tenso", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+/* line 6, ../sass/partials/styleguide/type/_base-type.scss */
+body {
+  color: #3d3d3d;
+}
+
+/* line 10, ../sass/partials/styleguide/type/_base-type.scss */
+p {
+  margin: auto auto 1.5em;
+}
+/* line 14, ../sass/partials/styleguide/type/_base-type.scss */
+p + p {
+  margin-top: -0.5em;
+}
+
+/* line 1, ../sass/partials/styleguide/type/_links.scss */
+a {
+  color: #ef483e;
+}
+/* line 3, ../sass/partials/styleguide/type/_links.scss */
+a:hover {
+  color: #f3756d;
+}
+/* line 6, ../sass/partials/styleguide/type/_links.scss */
+a:visited {
+  color: #e71f13;
+}
+
+/* line 12, ../sass/partials/styleguide/type/_links.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/partials/styleguide/media/_images.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 1, ../sass/partials/styleguide/media/_videos.scss */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+/* line 7, ../sass/partials/styleguide/media/_videos.scss */
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../sass/partials/styleguide/forms/_inputs.scss */
+input[type="text"], input[type="email"], input[type="name"], input[type="password"], input[type="file"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: .5em 1em;
+  font-size: 100%;
+  font-family: "tenso", sans-serif;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  margin-bottom: .5em;
+}
+/* line 9, ../sass/partials/styleguide/forms/_inputs.scss */
+input[type="text"]:active, input[type="text"]:focus, input[type="email"]:active, input[type="email"]:focus, input[type="name"]:active, input[type="name"]:focus, input[type="password"]:active, input[type="password"]:focus, input[type="file"]:active, input[type="file"]:focus {
+  border: 1px solid #ef483e;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+/* line 1, ../sass/partials/styleguide/forms/_textarea.scss */
+textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: .5em;
+  font-size: 100%;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  font-family: "tenso", sans-serif;
+}
+/* line 9, ../sass/partials/styleguide/forms/_textarea.scss */
+textarea:active, textarea:focus {
+  border: 1px solid #ef483e;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+/* line 1, ../sass/partials/styleguide/forms/_buttons.scss */
+input[type="submit"] {
+  background-color: #999999;
+  border: 1px solid #6286bd;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: .5em 1.25em;
+  font-size: 100%;
+  font-family: "tenso", sans-serif;
+  display: inline-block;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px 0px white;
+          box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px 0px white;
+  border-radius: 3px;
+  padding: 10px 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: .8em;
+  color: #373737;
+  cursor: pointer;
+}
+/* line 56, ../sass/partials/global/_mixins.scss */
+input[type="submit"]:hover {
+  background-color: #949494;
+}
+
+/* line 2, ../sass/partials/styleguide/forms/_label.scss */
+form label {
+  font-weight: normal;
+  font-size: 110%;
+  padding-bottom: .5em;
+  display: inline-block;
+  min-width: 55px;
+}
+/* line 10, ../sass/partials/styleguide/forms/_label.scss */
+form .description {
+  font-size: 85%;
+  margin: 1em 0;
+}
+
+/* line 1, ../sass/partials/styleguide/forms/_fieldsets.scss */
+fieldset {
+  border-radius: 3px;
+  padding: 1em 1.5em;
+}
+/* line 5, ../sass/partials/styleguide/forms/_fieldsets.scss */
+fieldset .fieldset-legend a {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/partials/styleguide/misc/_table.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 5, ../sass/partials/styleguide/misc/_table.scss */
+table tr {
+  padding: 0;
+}
+/* line 7, ../sass/partials/styleguide/misc/_table.scss */
+table tr.odd {
+  background-color: #f7f7f7;
+  border-bottom: 0;
+}
+/* line 11, ../sass/partials/styleguide/misc/_table.scss */
+table tr.even {
+  background-color: white;
+  border-bottom: 0;
+}
+/* line 16, ../sass/partials/styleguide/misc/_table.scss */
+table td {
+  padding: 0.5em 2em;
+  margin: 0;
+}
+
+/* line 24, ../sass/partials/styleguide/misc/_table.scss */
+table.sticky-enabled thead th, table.sticky-header thead th {
+  border-bottom: 3px solid #ef483e;
+  padding: 1em 0 1em 2em;
+}
+
+/* line 1, ../sass/partials/styleguide/misc/_pager.scss */
+ul.pager {
+  margin: 1em 0 0;
+  padding: 1em 0 0;
+  border-top: 1px solid #d68603;
+}
+/* line 5, ../sass/partials/styleguide/misc/_pager.scss */
+ul.pager li {
+  display: inline-block;
+  list-style: none;
+  padding-right: .5em;
+  color: #ef483e;
+}
+/* line 10, ../sass/partials/styleguide/misc/_pager.scss */
+ul.pager li a:visited {
+  color: #ef483e;
+}
+
+/* line 2, ../sass/partials/design/blocks/_logo.scss */
+.logo img {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+@media (min-width: 50em) {
+  /* line 2, ../sass/partials/design/blocks/_logo.scss */
+  .logo img {
+    margin: 0;
+  }
+}
+/* line 92, ../../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .logo img {
+  margin: 0;
+}
+
+/* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 50em) {
+  /* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
+  nav ul {
+    text-align: right;
+  }
+}
+/* line 7, ../sass/partials/design/blocks/_main-navigation.scss */
+nav ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 11, ../sass/partials/design/blocks/_main-navigation.scss */
+nav ul li a {
+  display: block;
+}
+/* line 13, ../sass/partials/design/blocks/_main-navigation.scss */
+nav ul li a:hover {
+  color: #ef483e;
+}
+/* line 18, ../sass/partials/design/blocks/_main-navigation.scss */
+nav ul a, nav ul a:visited {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/partials/design/regions/_header.scss */
+.logo {
+  text-align: center;
+}
+@media (min-width: 50em) {
+  /* line 1, ../sass/partials/design/regions/_header.scss */
+  .logo {
+    width: 25%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 7, ../sass/partials/design/regions/_header.scss */
+  h1.intro {
+    width: 40.42553%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 38.29787%;
+    clear: none;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 12, ../sass/partials/design/regions/_header.scss */
+  nav {
+    width: 14.89362%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+
+/* line 18, ../sass/partials/design/regions/_header.scss */
+header[role="banner"] {
+  padding: 1em 0 1.5em;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* line 13, ../../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+header[role="banner"]:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 1, ../sass/partials/design/regions/_main.scss */
+main {
+  padding: 2em 0;
+}
+/* line 13, ../../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 1, ../sass/partials/design/regions/_body.scss */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+/* line 4, ../sass/partials/design/regions/_body.scss */
+html body {
+  margin: 0 auto;
+  height: 100%;
+  background: white;
+  overflow-x: hidden;
+  max-width: 85em;
+  padding: 1em;
+}
+/* line 13, ../../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+html body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 15, ../sass/partials/design/regions/_body.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* line 1, ../sass/partials/design/views/_projects.scss */
+.worklist {
+  margin-top: 2em;
+}
+/* line 13, ../../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+.worklist:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 4, ../sass/partials/design/views/_projects.scss */
+.worklist article {
+  width: -webkit-calc(50% - 0.65em);
+  width: calc(50% - 0.65em);
+  max-width: none;
+  float: left;
+  margin-bottom: 1.3em;
+  line-height: 0;
+}
+/* line 10, ../sass/partials/design/views/_projects.scss */
+.worklist article:nth-child(odd) {
+  margin-right: 0.65em;
+  margin-left: 0;
+}
+/* line 14, ../sass/partials/design/views/_projects.scss */
+.worklist article:nth-child(even) {
+  margin-left: 0.65em;
+  margin-right: 0;
+}
