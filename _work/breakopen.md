@@ -1,7 +1,10 @@
 ---
 title: Breakopen
 description: This is just a sample general page.
+services: Branding, Graphic Design, Web Design, Web Development.
 main_image_path: /assets/images/work/breakopen.jpg
+images:
+  - image_path: '/assets/images/work/breakopen/poster.jpg'
 ---
 
 Decursa sed structa ab

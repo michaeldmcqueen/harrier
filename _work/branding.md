@@ -1,6 +1,7 @@
 ---
 title: Branding
 description: This is just a sample general page.
+services: Logo Design, Graphic Design
 main_image_path: /assets/images/work/branding.jpg
 ---
 

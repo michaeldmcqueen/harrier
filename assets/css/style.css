@@ -46,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
 
 /* line 34, ../sass/partials/styleguide/misc/_reset.scss */
 body {
-  line-height: 1;
+  line-height: 1.3;
 }
 
 /* line 37, ../sass/partials/styleguide/misc/_reset.scss */
@@ -304,6 +304,7 @@ ul.pager li a:visited {
 nav ul {
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 @media (min-width: 50em) {
   /* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
@@ -311,23 +312,146 @@ nav ul {
     text-align: right;
   }
 }
-/* line 7, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 8, ../sass/partials/design/blocks/_main-navigation.scss */
 nav ul li {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
-/* line 11, ../sass/partials/design/blocks/_main-navigation.scss */
-nav ul li a {
-  display: block;
+  padding: 0 0 0.2em 1em;
+  display: inline-block;
 }
 /* line 13, ../sass/partials/design/blocks/_main-navigation.scss */
+nav ul li a {
+  display: block;
+  border-bottom: 1px dotted;
+}
+/* line 16, ../sass/partials/design/blocks/_main-navigation.scss */
 nav ul li a:hover {
   color: #ef483e;
 }
-/* line 18, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 21, ../sass/partials/design/blocks/_main-navigation.scss */
 nav ul a, nav ul a:visited {
   text-decoration: none;
+}
+
+/* line 1, ../sass/partials/design/pages/_about.scss */
+.about-headshot {
+  margin-bottom: 2em;
+}
+@media (min-width: 50em) {
+  /* line 1, ../sass/partials/design/pages/_about.scss */
+  .about-headshot {
+    width: 30%;
+    float: left;
+    margin-right: 2em;
+  }
+}
+
+@media (min-width: 50em) {
+  /* line 9, ../sass/partials/design/pages/_about.scss */
+  .about-content {
+    overflow: hidden;
+    font-size: 1.5em;
+  }
+}
+
+/* line 19, ../sass/partials/design/pages/_about.scss */
+.lists {
+  clear: both;
+  padding: 1em 0;
+  font-size: 1rem;
+}
+/* line 13, ../../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+.lists:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 24, ../sass/partials/design/pages/_about.scss */
+.lists h3 {
+  padding-bottom: 2em;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+/* line 29, ../sass/partials/design/pages/_about.scss */
+.lists h6 {
+  padding-bottom: 1em;
+  font-size: 1.2em;
+}
+/* line 33, ../sass/partials/design/pages/_about.scss */
+.lists ul {
+  margin-bottom: 2em;
+}
+@media (min-width: 50em) {
+  /* line 33, ../sass/partials/design/pages/_about.scss */
+  .lists ul {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+  }
+}
+/* line 41, ../sass/partials/design/pages/_about.scss */
+.lists span {
+  display: block;
+}
+/* line 44, ../sass/partials/design/pages/_about.scss */
+.lists .album {
+  display: inline-block;
+  font-weight: 700;
+  border-bottom: 1px dotted;
+}
+/* line 49, ../sass/partials/design/pages/_about.scss */
+.lists li {
+  padding-bottom: 0.5em;
+}
+
+/* line 1, ../sass/partials/design/pages/_projects.scss */
+.projects {
+  padding-top: 4em;
+}
+/* line 3, ../sass/partials/design/pages/_projects.scss */
+.projects h1 {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+/* line 7, ../sass/partials/design/pages/_projects.scss */
+.projects h3 {
+  color: #b7b5b5;
+  margin-bottom: 1em;
+}
+@media (min-width: 50em) {
+  /* line 11, ../sass/partials/design/pages/_projects.scss */
+  .projects .project-title {
+    float: left;
+    width: 20%;
+    margin-right: 2em;
+  }
+}
+/* line 18, ../sass/partials/design/pages/_projects.scss */
+.projects .projects-info {
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+@media (min-width: 50em) {
+  /* line 18, ../sass/partials/design/pages/_projects.scss */
+  .projects .projects-info {
+    width: 35%;
+  }
+}
+/* line 25, ../sass/partials/design/pages/_projects.scss */
+.projects img {
+  padding-bottom: 2em;
+}
+
+/* line 1, ../sass/partials/design/regions/_footer.scss */
+footer {
+  padding: 2em 0em;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+/* line 5, ../sass/partials/design/regions/_footer.scss */
+footer p {
+  margin: 0;
+  color: #bfbfbf;
 }
 
 /* line 1, ../sass/partials/design/regions/_header.scss */
@@ -345,21 +469,30 @@ nav ul a, nav ul a:visited {
   }
 }
 
+/* line 7, ../sass/partials/design/regions/_header.scss */
+h1.intro {
+  font-size: 1em;
+  padding-top: .5em;
+}
 @media (min-width: 50em) {
   /* line 7, ../sass/partials/design/regions/_header.scss */
   h1.intro {
-    width: 40.42553%;
+    width: 31.91489%;
     float: left;
     margin-right: -100%;
-    margin-left: 38.29787%;
+    margin-left: 25.53191%;
     clear: none;
   }
 }
 
+/* line 14, ../sass/partials/design/regions/_header.scss */
+nav {
+  padding-top: 1em;
+}
 @media (min-width: 50em) {
-  /* line 12, ../sass/partials/design/regions/_header.scss */
+  /* line 14, ../sass/partials/design/regions/_header.scss */
   nav {
-    width: 14.89362%;
+    width: 31.91489%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -367,9 +500,9 @@ nav ul a, nav ul a:visited {
   }
 }
 
-/* line 18, ../sass/partials/design/regions/_header.scss */
+/* line 21, ../sass/partials/design/regions/_header.scss */
 header[role="banner"] {
-  padding: 1em 0 1.5em;
+  padding: 1em 1em 1.5em;
   border-bottom: 1px solid #e8e8e8;
 }
 /* line 13, ../../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
@@ -430,20 +563,30 @@ html body:after {
 }
 /* line 4, ../sass/partials/design/views/_projects.scss */
 .worklist article {
-  width: -webkit-calc(50% - 0.65em);
-  width: calc(50% - 0.65em);
+  width: 100%;
   max-width: none;
   float: left;
   margin-bottom: 1.3em;
   line-height: 0;
 }
-/* line 10, ../sass/partials/design/views/_projects.scss */
-.worklist article:nth-child(odd) {
-  margin-right: 0.65em;
-  margin-left: 0;
+@media (min-width: 50em) {
+  /* line 4, ../sass/partials/design/views/_projects.scss */
+  .worklist article {
+    width: -webkit-calc(50% - 0.65em);
+    width: calc(50% - 0.65em);
+  }
 }
-/* line 14, ../sass/partials/design/views/_projects.scss */
-.worklist article:nth-child(even) {
-  margin-left: 0.65em;
-  margin-right: 0;
+@media (min-width: 50em) {
+  /* line 13, ../sass/partials/design/views/_projects.scss */
+  .worklist article:nth-child(odd) {
+    margin-right: 0.65em;
+    margin-left: 0;
+  }
+}
+@media (min-width: 50em) {
+  /* line 19, ../sass/partials/design/views/_projects.scss */
+  .worklist article:nth-child(even) {
+    margin-left: 0.65em;
+    margin-right: 0;
+  }
 }

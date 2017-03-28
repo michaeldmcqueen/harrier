@@ -1,7 +1,10 @@
 ---
 title: The NBM Show
 description: This is just a sample general page.
+services: Web Design, Web Development.
 main_image_path: /assets/images/work/nbmshow.jpg
+images:
+  - image_path: '/assets/images/work/nbmshow/home.jpg'
 ---
 
 Decursa sed structa ab

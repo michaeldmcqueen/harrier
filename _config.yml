@@ -31,7 +31,7 @@ defaults:
     scope:
       type: work
     values:
-      layout: page
+      layout: projects
       title:
       main_image_path:
       description:

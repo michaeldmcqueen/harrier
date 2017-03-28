@@ -1,0 +1,28 @@
+.projects {
+  padding-top: 4em;
+	h1 {
+    font-weight: 700;
+    font-size: 1.4em;
+  }
+  h3 {
+    color: #b7b5b5;
+    margin-bottom: 1em;
+  }
+  .project-title {
+        @include breakpoint($bp-medium) {
+      float: left;
+      width: 20%;
+      margin-right: 2em;
+    }
+  }
+  .projects-info {
+    overflow:hidden;
+    padding-bottom: 2em;
+    @include breakpoint($bp-medium) {
+      width: 35%;
+    }
+  }
+  img {
+    padding-bottom: 2em;
+  }
+}

@@ -1,0 +1,52 @@
+.about-headshot {
+  margin-bottom: 2em;
+  @include breakpoint($bp-medium) {
+    width: 30%;
+    float: left;
+    margin-right: 2em;
+  }
+}
+.about-content {
+  @include breakpoint($bp-medium) {
+    overflow: hidden;
+     font-size: 1.5em;
+  }
+}
+.contact-info {
+
+}
+
+.lists {
+  clear: both;
+  padding: 1em 0;
+  @include clearfix;
+  font-size: 1rem;
+  h3 {
+    padding-bottom: 2em;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  h6 {
+    padding-bottom: 1em;
+    font-size: 1.2em;
+  }
+  ul {
+    margin-bottom: 2em;
+    @include breakpoint($bp-medium) {
+      width: 30%;
+      float: left;
+      margin-right: 3%;
+    }
+  }
+  span {
+    display: block;
+  }
+  .album {
+    display: inline-block;
+    font-weight: 700;
+    border-bottom: 1px dotted;
+  }
+  li {
+    padding-bottom: 0.5em;
+  }
+}

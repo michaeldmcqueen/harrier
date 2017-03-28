@@ -1,2 +1,9 @@
-.footer-wrapper {
+footer {
+  padding: 2em 0em;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  p {
+    margin: 0;
+    color: #bfbfbf;
+  }
 }

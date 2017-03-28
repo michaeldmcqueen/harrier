@@ -1,15 +1,18 @@
 nav ul {
   padding: 0;
   margin: 0;
+  text-align: center;
   @include breakpoint($bp-medium) {
     text-align: right;
   }
   li {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0.2em 1em;
+    display: inline-block;
     a {
       display: block;
+      border-bottom: 1px dotted;
       &:hover {
         color: $color-one;
       }
