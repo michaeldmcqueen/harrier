@@ -9,4 +9,4 @@ images:
 ---
 
 
-The Downtown Artery is a multi-purpose space that caters to the revival of the working artist and fosters a community of creators and supporters. I worked with the Artery to build a new Drupal 7 Responsive Site, replacing their old Wordpress site.
+The Downtown Artery is a multi-purpose music venue, art gallery and studio that caters to the revival of working artist's and fosters a community of creators and supporters. I worked with the Artery to build a new Drupal 7 Responsive Site.
