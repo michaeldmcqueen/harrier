@@ -3,13 +3,18 @@
   @include breakpoint($bp-medium) {
     width: 30%;
     float: left;
-    margin-right: 2em;
+    margin-right: 3em;
+    margin-top: 1rem;
   }
 }
 .about-content {
   @include breakpoint($bp-medium) {
+    margin-top: 1rem;
     overflow: hidden;
-     font-size: 1.5em;
+    font-size: 1.5em;
+  }
+  a img {
+    padding-right: .5em;
   }
 }
 .contact-info {

@@ -6,7 +6,11 @@
   }
   h3 {
     color: #b7b5b5;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+  }
+  h6 {
+    color: #b7b5b5;
+    font-size: 85%;
   }
   .project-title {
         @include breakpoint($bp-medium) {
@@ -24,5 +28,11 @@
   }
   img {
     padding-bottom: 2em;
+  }
+}
+
+.branding {
+  img {
+
   }
 }

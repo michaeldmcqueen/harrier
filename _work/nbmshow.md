@@ -2,11 +2,9 @@
 title: The NBM Show
 description: This is just a sample general page.
 services: Web Design, Web Development.
+work_for: Work Completed for Variant Studios
 main_image_path: /assets/images/work/nbmshow.jpg
 images:
   - image_path: '/assets/images/work/nbmshow/home.jpg'
 ---
 
-Decursa sed structa ab
-beatam ut! Moderato fluminis coniungere ambae et certa carinae Macareus, sic et
-ista neque mox ventis regnare coepit.
