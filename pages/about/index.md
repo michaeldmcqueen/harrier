@@ -2,7 +2,7 @@
 title: About
 permalink: "/about/"
 description: This is just a sample general page.
-headshot_image_path: /assets/images/about/michael-david-mcqueen.JPG
+headshot_image_path: /assets/images/about/avatar.jpg
 layout: about
 ---
 
